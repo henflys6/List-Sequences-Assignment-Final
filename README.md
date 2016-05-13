@@ -32,6 +32,7 @@ def after4(numlist):
     for i in range(len(numlist)):
         if numlist[i] == 4:
             location = i
+    
     # prints out the numbers in the list after the last occurring 4
     print numlist[location+1:]
 
@@ -48,11 +49,13 @@ def acromatch(wordlist1, wordlist2):
     # set 2 empty strings
     acro1 = ""
     acro2 = ""
+   
     # iterate through the lists and add the first letter of each word to the corresponding empty string
     for i in range(len(wordlist1)):
         acro1 += wordlist1[i][0]
     for i in range(len(wordlist2)):
         acro2 += wordlist2[i][0]
+    
     # comparing the two strings
     if acro1 == acro2:
         print True
@@ -71,6 +74,7 @@ def canVote(birthdate):
     """
     # splits the "/" in the string
     date = birthdate.split("/")
+   
     # access the individual strings to compare and convert the strings to integers
     if int(date[2]) < 1998:
         print True
