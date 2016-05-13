@@ -1,7 +1,9 @@
 # List-Sequences-Assignment-Final
 
 #A-1
+
 def unluckyOne(numlist):
+    
     """
     determine if 1 followed by a 3 (unluckyOne) is in the first 2 positions of the list or last 2 positions
     :param numlist: int - list with numbers
@@ -18,7 +20,9 @@ def unluckyOne(numlist):
         return False
 
 #B-3
+
 def after4(numlist):
+   
     """
     find the last occurring 4 in a list and print out all numbers after it
     :param numlist: int - list of numbers
@@ -32,6 +36,7 @@ def after4(numlist):
     print numlist[location+1:]
 
 #C-2
+
 def acromatch(wordlist1, wordlist2):
 
     """
@@ -55,7 +60,9 @@ def acromatch(wordlist1, wordlist2):
         print False
 
 #D-2
+
 def canVote(birthdate):
+    
     """
     determine if a person is eligible to vote in the presidential election on Nov 8,2016,
     they must be at least 18 years of age.
